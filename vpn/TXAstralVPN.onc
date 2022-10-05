@@ -1,0 +1,31 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{84e21f91-0d04-49b0-859c-d18bec8596a5}",
+      "Name": "AstralVPN | Texas",
+      "Type": "VPN",
+      "NameServersConfigType": "Static",
+      "StaticIPConfig": {
+        "NameServers": [
+          "161.97.156.62"
+        ]
+      },
+      "VPN": {
+        "Type": "L2TP-IPsec",
+        "Host": "139.144.35.69",
+        "AutoConnect": true,
+        "IPsec": {
+          "IKEVersion": 1,
+          "AuthenticationType": "PSK",
+          "PSK": "hacbakTwJEh8angSWaGX",
+          "SaveCredentials": true
+        },
+        "L2TP": {
+          "Username": "vpnuser",
+          "Password": "MBu7gZ73odMcLcuK"
+        }
+      }
+    }
+  ]
+}

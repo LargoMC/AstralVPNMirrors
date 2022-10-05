@@ -1,0 +1,25 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{25c827e5-2dfa-4093-a404-237275c098e2}",
+      "Name": "AstralVPN (NoDNS)| UK",
+      "Type": "VPN",
+      "VPN": {
+        "Type": "L2TP-IPsec",
+        "Host": "20.108.180.113",
+        "AutoConnect": true,
+        "IPsec": {
+          "IKEVersion": 1,
+          "AuthenticationType": "PSK",
+          "PSK": "Fs7K2cJ3ECVbxE5Jc35s",
+          "SaveCredentials": true
+        },
+        "L2TP": {
+          "Username": "vpnuser",
+          "Password": "UcvPsYEkoYd5ghhK"
+        }
+      }
+    }
+  ]
+}

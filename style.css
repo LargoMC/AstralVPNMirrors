@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+body {
+  background-color: #1c1c1c;
+}
+
+h1 {
+  color: #8a00ff;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #df00ff;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+}
