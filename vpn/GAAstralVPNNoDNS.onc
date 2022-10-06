@@ -1,0 +1,25 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{2945ba59-8fa2-436a-abe2-1270fa0a0aff}",
+      "Name": "AstralVPN (NoDNS) | Georgia",
+      "Type": "VPN",
+      "VPN": {
+        "Type": "L2TP-IPsec",
+        "Host": "45.32.216.91",
+        "AutoConnect": true,
+        "IPsec": {
+          "IKEVersion": 1,
+          "AuthenticationType": "PSK",
+          "PSK": "m9sHVkEs3yfagUCqnWuw",
+          "SaveCredentials": true
+        },
+        "L2TP": {
+          "Username": "vpnuser",
+          "Password": "roJ9RzazV96HvXwx"
+        }
+      }
+    }
+  ]
+}
