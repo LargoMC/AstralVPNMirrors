@@ -1,0 +1,25 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "NetworkConfigurations": [
+    {
+      "GUID": "{ee4c51dc-7948-4a4a-a413-d890261602f1}",
+      "Name": "AstralVPN (NoDNS) | New Jersey",
+      "Type": "VPN",
+      "VPN": {
+        "Type": "L2TP-IPsec",
+        "Host": "104.200.29.89",
+        "AutoConnect": true,
+        "IPsec": {
+          "IKEVersion": 1,
+          "AuthenticationType": "PSK",
+          "PSK": "2MrAPy58x723nFu4egjg",
+          "SaveCredentials": true
+        },
+        "L2TP": {
+          "Username": "vpnuser",
+          "Password": "3ikb42WgkWZ5SCtX"
+        }
+      }
+    }
+  ]
+}
